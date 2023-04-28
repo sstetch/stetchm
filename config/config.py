@@ -13,21 +13,21 @@ admins = {}
 
 #------------------------ Important Stuff 🤎 -----------------------
 
-API_ID = int(getenv("API_ID", "8934899"))
-API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")
-BOT_TOKEN = getenv("BOT_TOKEN", "5204315005:AAGUB2q0QafBUwjDPGRAOcruwhUdqyXVlz4")
+API_ID = int(getenv("API_ID", "14041145"))
+API_HASH = getenv("API_HASH", "0ed849f5e7ab2df61d969317de2ca64c")
+BOT_TOKEN = getenv("BOT_TOKEN", "6208176104:AAGVedl1SxFis3GdLOX0XBWlCGVacz1CmOQ")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "600"))
-STRING_SESSION = getenv("STRING_SESSION", "AgAZiHdAd4EOX2_TFaotq0BvHmvyfNnuzW1BXj_K4vIjrDbv_c2Ii7HvAyDU-kjCHAQsEvvY-AsNtiGCQ000WasBQ6qvB4wV5Ez7XZQyNmqbe2Cyg0DUTLHGFqKx-cuZ6RuYIla3TFYNx02fRE1TK_cYmdZr2KC4PvH80JM_zSzCju99osQ8xTQGI7L4wsZmOGD7ACCZpbGt_3WM-nalZCq4gS37ubEmu1pCLc7GE5NVkyUYyG1fERP8LRisXehFuf5Ly-ZOZ8e98sr0tYBRKfLsTODFsGVWRVIYvyZ4KstWO9O54MAm5eKkasktNoBSv49KSMPiBrtmbiNFKBXTi8loAAAAAVYfLGoA")
-BOT_USERNAME = getenv("BOT_USERNAME", "LROBOT")
+STRING_SESSION = getenv("STRING_SESSION", "BABkpntXi5JT0HBEa-pJQVmuZmCCSCcwWtDYG93ALKd80EnbV3oc8AtZ-6L4nq4qsz06f9o0Fhyg_DMVPaflP_fO9I8K0FOk98orDWWWr-qexi8xFEm6kn4tQCJNXlju10LoyuDaByIwscV3dvH27L4T-sQkOEG6dNXZJXkhPzzV3t2IbQBv5z0UC9JHLKpidpMIFAkSIABBs_Qs5gyGlv3iWoGK4RuS3_Dz5ZbQ7yObPS6ry0X8CPkLCdkqe-yjOXQ9qeQsuRv9599CP9Fg6Jx6WRjEsiMX0QRivT9dWrqvROpKYse9aDB1KIbAAuEUF2rx8e0Z8jOGYZ29N4zQS92aAAAAAW3f2RcA")
+BOT_USERNAME = getenv("BOT_USERNAME", "stetchfybot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1964861305").split()))
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1854384004").split())
+    map(int, getenv("OWNER_ID", "1404114574").split())
 )  # Input type must be interger
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
 #•••••••••••••••••••••••• Mongodb Url Stuff & Loggroupid •••••••••••
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001847569598")) 
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1964861305")) 
 
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 #________________________ Updates  & Music bot name________________
